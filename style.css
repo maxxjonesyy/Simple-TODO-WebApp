@@ -1,0 +1,97 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.topsection {
+    display: flex;
+    flex-flow: column nowrap;
+    width: 100vw;
+    height: 20vh;
+    justify-content: center;
+    align-items: center;
+    text-transform: uppercase;
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+}
+
+.heading {
+    font-size: 100px;
+    padding: 10px;
+    text-shadow: 0 1px 0px #378ab4, 1px 0 0px #5dabcd, 1px 2px 1px #378ab4, 2px 1px 1px #5dabcd, 2px 3px 2px #378ab4, 3px 2px 2px #5dabcd, 3px 4px 2px #378ab4, 4px 3px 3px #5dabcd, 4px 5px 3px #378ab4, 5px 4px 2px #5dabcd, 5px 6px 2px #378ab4, 6px 5px 2px #5dabcd, 6px 7px 1px #378ab4, 7px 6px 1px #5dabcd, 7px 8px 0px #378ab4, 8px 7px 0px #5dabcd, 2px 2px 2px rgba(206, 89, 55, 0);
+}
+
+.subheading {
+    font-size: 28px;
+}
+
+.bottomsection {
+    display: flex;
+    flex-flow: column nowrap;
+    width: 100vw;
+    height: 80vh;
+    opacity: 0.7;
+    align-items: center;
+}
+
+.todo-data {
+    margin-top: 10vh;
+}
+
+.textbox {
+    width: 30rem;
+    height: 2.2rem;
+    opacity: 0.9;
+    border-radius: 5px;
+    border: none;
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+    font-weight: 700;
+}
+
+input {
+    padding: 10px;
+    outline: none;
+    text-transform: uppercase;
+}
+
+.button {
+    height: 2.2rem;
+    width: 5rem;
+    border-radius: 5px;
+    border: none;
+    transition: 0.2s ease-in-out;
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+    font-weight: 700;
+}
+
+.button:hover {
+    cursor: pointer;
+    transform: scale(1.05);
+}
+
+.list {
+    padding-top: 5vh;
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+    font-weight: 700;
+}
+
+.liststyle {
+    padding: 10px;
+    margin: 10px;
+    color: rgb(51, 51, 51);
+    text-transform: uppercase;
+}
+
+.liststyle-decoration {
+    background-color: white;
+    opacity: 0.6;
+    box-shadow: 0px 1px 3.5px black;
+}
+
+.background {
+    background: radial-gradient( circle, rgba(238, 174, 202, 1) 0%, rgba(148, 187, 233, 1) 100%);
+    width: 100vw;
+    height: 100vh;
+    position: absolute;
+    z-index: -5;
+}
